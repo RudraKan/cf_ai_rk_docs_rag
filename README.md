@@ -3,14 +3,10 @@
 **Intelligent Cloudflare Documentation Assistant powered by RAG**
 
 **Author**: Rudra Kanani (RK)  
-**Live Demo**: https://cf-ai-rk-docs-rag.kananirudra.workers.dev  
-**Repository**: https://github.com/rudrakanani/cf_ai_rk_docs_rag
+**Deployed Link**: https://cf-ai-rk-docs-rag.kananirudra.workers.dev  
+**Demo Video**: [link to video](https://drive.google.com/file/d/1xpeqXD6o119kWRlJgf4T3AP12QfFi9Zr/view?usp=sharing)
 
 ---
-## Deployed Link
-#### https://cf-ai-rk-docs-rag.kananirudra.workers.dev/
-## DEMO VIDEO:
-#### https://drive.google.com/file/d/1xpeqXD6o119kWRlJgf4T3AP12QfFi9Zr/view?usp=sharing
 
 ## Table of Contents
 
