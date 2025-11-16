@@ -1,0 +1,18 @@
+{
+  "name": "cf_ai_rk_docs_rag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cloudflare", "workers-ai", "rag", "vectorize", "documentation"],
+  "author": "Rudra Kanani",
+  "license": "ISC",
+  "description": "Cloudflare Docs RAG Assistant - Intelligent documentation search powered by Workers AI, Vectorize, and Durable Objects",
+  "devDependencies": {
+    "@cloudflare/ai": "^1.2.2",
+    "@cloudflare/workers-types": "^4.20251115.0"
+  }
+}

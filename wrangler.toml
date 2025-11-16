@@ -1,0 +1,19 @@
+name = "cf-ai-rk-docs-rag"
+main = "src/index.ts"
+compatibility_date = "2023-12-18"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["DurableChat"]
+
+[ai]
+binding = "AI"
+
+[durable_objects]
+bindings = [
+  { name = "CHAT", class_name = "DurableChat" }
+]
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "cloudflare-docs"
