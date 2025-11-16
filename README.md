@@ -7,6 +7,10 @@
 **Repository**: https://github.com/rudrakanani/cf_ai_rk_docs_rag
 
 ---
+## Deployed Link
+###https://cf-ai-rk-docs-rag.kananirudra.workers.dev/
+## DEMO VIDEO:
+#https://drive.google.com/file/d/1xpeqXD6o119kWRlJgf4T3AP12QfFi9Zr/view?usp=sharing
 
 ## Table of Contents
 
@@ -59,42 +63,12 @@ Unlike traditional chatbots that may hallucinate answers, this system grounds al
 ## Screenshots
 
 ### Application Interface
-
-**Screenshot Placeholder: Frontend Chat Interface**
-
-> **Add screenshot here showing:**
-> - The main chat interface with the purple gradient background
-> - The header displaying "CF Docs RAG Assistant" and technology badges (Workers AI, Vectorize, Durable Objects, Mistral 7B)
-> - At least one complete question-answer exchange visible in the chat
-> - An AI response showing source citations with numbered references [1], [2], etc.
-> - Citation cards below the answer displaying:
->   - Documentation title and URL
->   - Relevance score percentage
->   - Clickable links to official Cloudflare docs
-> - The input field at the bottom with placeholder text
-> - The "Send" button with gradient styling
-> - Footer credit showing "Built by Rudra Kanani | Powered by Cloudflare"
-> 
-> **Example question to show**: "What are Durable Objects?"  
-> **File name**: `screenshot-frontend.png`
+<img width="1750" height="1682" alt="image" src="https://github.com/user-attachments/assets/10cc75a7-39ee-4c55-aabe-7d6719b5772f" />
 
 ### Cloudflare Dashboard Configuration
 
-**Screenshot Placeholder: Cloudflare Dashboard**
+<img width="2034" height="1188" alt="image" src="https://github.com/user-attachments/assets/007567be-3d80-45f5-9ec8-e70ec9847c93" />
 
-> **Add screenshot here showing:**
-> - Cloudflare dashboard at https://dash.cloudflare.com
-> - Navigate to Workers & Pages section
-> - Show the deployed Worker named "cf-ai-rk-docs-rag"
-> - In the Worker's Settings > Bindings tab, display:
->   - AI binding: `AI` (Workers AI)
->   - Vectorize binding: `VECTORIZE` → `cloudflare-docs` index
->   - Durable Object binding: `CHAT` → `DurableChat` class
-> - Optionally show the Triggers tab with the workers.dev URL
-> - Optionally show deployment success indicator or version ID
-> 
-> **Navigation path**: Workers & Pages → cf-ai-rk-docs-rag → Settings → Bindings  
-> **File name**: `screenshot-dashboard.png`
 
 ## Architecture
 
